@@ -21,10 +21,22 @@ export function Footer() {
               className="flex items-center gap-2 mr-6"
               aria-label="Home"
             >
-              <BsLaptopFill className="h-6 w-6" />
-              <span className="text-2xl font-semibold tracking-wider text-slate-900">
-                InputLo
-              </span>
+              <div className="logo6">
+                <div className="dots-icon">
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                  <div className="dot"></div>
+                </div>
+                <div className="text-2xl font-semibold tracking-wider text-slate-900">
+                  InputLo
+                </div>
+              </div>
             </Link>
             <p className="text-muted-foreground">
               Powerful forms and workflows with a delightful experience. Build,

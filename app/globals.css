@@ -124,3 +124,73 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.logo6 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.dots-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  width: 36px;
+  height: 36px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #06b6d4, #0891b2);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.dot:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.dot:nth-child(5) {
+  animation-delay: 0.8s;
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+}
+.dot:nth-child(6) {
+  animation-delay: 1s;
+}
+.dot:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.dot:nth-child(8) {
+  animation-delay: 1.4s;
+}
+.dot:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.logo6-text {
+  font-size: 30px;
+  font-weight: 300;
+  color: #1e293b;
+  letter-spacing: 0.05em;
+}
