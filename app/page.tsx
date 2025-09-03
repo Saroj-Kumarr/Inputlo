@@ -3,8 +3,10 @@ import ClientSlider from "@/components/ClientSlider";
 import EndlessPossibilities from "@/components/EndlessPossibilities";
 import FeatureTrioSection from "@/components/FeatureTrioSection";
 import { HeroWithVideo } from "@/components/HeroWithVideo";
+import InputLo from "@/components/InputLo";
 import IntegrationsMinimal from "@/components/IntegrationMinimal";
 import MainVisual from "@/components/MainVisual";
+import LogoMarquee from "@/components/Partner";
 import SocialProofCta from "@/components/SocialProof";
 import { StatsCta } from "@/components/StatsCTA";
 import TestimonialsSection from "@/components/TestimonialSectionBottom";
@@ -21,11 +23,13 @@ const page = () => {
       <AiNativeSection />
       <EndlessPossibilities />
       <IntegrationsMinimal />
-      <ClientSlider />
+      {/* <ClientSlider /> */}
       <MainVisual />
       <StatsCta />
       <TestimonialsSection />
-      <TransformHero />
+      <InputLo />
+      {/* <TransformHero /> */}
+      <LogoMarquee />
       {/* <TrustTestimonials /> */}
     </div>
   );
