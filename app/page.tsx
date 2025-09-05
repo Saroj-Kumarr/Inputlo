@@ -3,6 +3,7 @@ import ClientSlider from "@/components/ClientSlider";
 import EndlessPossibilities from "@/components/EndlessPossibilities";
 import FeatureTrioSection from "@/components/FeatureTrioSection";
 import { HeroWithVideo } from "@/components/HeroWithVideo";
+import { WhyFormsSection } from "@/components/Highlighter";
 import InputLo from "@/components/InputLo";
 import IntegrationsMinimal from "@/components/IntegrationMinimal";
 import MainVisual from "@/components/MainVisual";
@@ -19,7 +20,9 @@ const page = () => {
     <div>
       <HeroWithVideo />
       <SocialProofCta />
+
       <FeatureTrioSection />
+      <WhyFormsSection />
       <AiNativeSection />
       <EndlessPossibilities />
       <IntegrationsMinimal />

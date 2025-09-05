@@ -3,7 +3,7 @@ import LeftVisual from "./LeftVisual";
 
 export default function MainVisual() {
   return (
-    <main className=" bg-slate-900 text-white mt-10">
+    <main className=" bg-[#0b1220] text-white mt-10">
       <section className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 px-6 py-16 md:grid-cols-2 md:gap-12">
         <LeftVisual />
 
