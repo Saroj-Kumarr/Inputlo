@@ -35,29 +35,36 @@ export function AiNativeSection({
           <div className="max-w-xl">
             <h2
               id="ai-native-heading"
-              className="text-pretty text-3xl md:text-4xl font-medium leading-tight text-slate-900"
+              className="text-pretty text-3xl md:text-4xl font-semibold leading-tight text-slate-900"
             >
               A better way to work with native AI
             </h2>
 
-            <ul className="mt-6 space-y-5">
+            <div className="mt-8 grid gap-6">
               {features.map((f, idx) => (
-                <li key={idx} className="flex gap-3">
-                  {/* accent bullet using the brand color #F6C957 */}
-                  <span
-                    aria-hidden
-                    className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full"
+                <div
+                  key={idx}
+                  className="flex items-start gap-4 rounded-xl border border-slate-200 bg-white/50 p-4 shadow-sm hover:shadow-md transition"
+                >
+                  {/* Accent circle */}
+                  <div
+                    className="h-10 w-10 shrink-0 rounded-full flex items-center justify-center font-bold text-slate-900"
                     style={{ backgroundColor: "#F6C957" }}
-                  />
-                  <p className="leading-relaxed text-slate-600">
-                    <span className="font-semibold text-slate-900">
-                      {f.titleEmphasis}
-                    </span>
-                    {f.rest}
-                  </p>
-                </li>
+                  >
+                    {idx + 1}
+                  </div>
+
+                  <div>
+                    <p className="leading-relaxed text-slate-600">
+                      <span className="font-semibold text-slate-900">
+                        {f.titleEmphasis}
+                      </span>{" "}
+                      {f.rest}
+                    </p>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Media column - tablet mock with video */}

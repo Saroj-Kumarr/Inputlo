@@ -17,11 +17,11 @@ export function HeroWithVideo({ className }: { className?: string }) {
           id="hero-title"
           className="text-4xl md:text-6xl font-semibold leading-tight text-slate-900"
         >
-          The next generation of <span className="text-[#F6C957]">popups</span>
+          The next generation of <span className="text-[#F6C957]">Forms</span>
         </h1>
 
         <p className="mt-4 text-lg md:text-xl text-slate-600">
-          Achieve 15%+ opt-in rates with a smarter popup, designed perfectly for
+          Achieve 15%+ opt-in rates with a smarter forms, designed perfectly for
           your brand — built specifically for Shopify.
         </p>
 

@@ -1,5 +1,6 @@
 import AiNativeSection from "@/components/AINative";
 import ClientSlider from "@/components/ClientSlider";
+import LogosMarquee from "@/components/Companies";
 import EndlessPossibilities from "@/components/EndlessPossibilities";
 import FeatureTrioSection from "@/components/FeatureTrioSection";
 import { HeroWithVideo } from "@/components/HeroWithVideo";
@@ -32,7 +33,8 @@ const page = () => {
       <TestimonialsSection />
       <InputLo />
       {/* <TransformHero /> */}
-      <LogoMarquee />
+      {/* <LogoMarquee /> */}
+      <LogosMarquee />
       {/* <TrustTestimonials /> */}
     </div>
   );
