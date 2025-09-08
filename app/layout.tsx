@@ -24,7 +24,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "InputLo",
-  description: "A platform for inputting and managing data.",
+  description: "A modern form builder for developers and designers.",
 };
 
 export default function RootLayout({
