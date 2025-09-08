@@ -2,9 +2,7 @@ import LogosMarquee from "@/components/Companies";
 import CompetitiveComparison from "@/components/CompatativeComparison";
 import EndlessPossibilities from "@/components/EndlessPossibilities";
 import FAQSectionEqual from "@/components/FAQs";
-// import FeaturesHeroAnimated from "@/components/FeatureHero";
 import FormBuilderLanding from "@/components/FeatureHero";
-import FeaturesHero from "@/components/FeatureHero";
 import { HeroWithVideo } from "@/components/HeroWithVideo";
 import { WhyFormsSection } from "@/components/Highlighter";
 import InputLo from "@/components/InputLo";
@@ -25,7 +23,6 @@ const page = () => {
       <EndlessPossibilities />
       <IntegrationsMinimal />
       <PricingComparison />
-
       <StatsCta />
       <TestimonialsSection />
       <CompetitiveComparison />
