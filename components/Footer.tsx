@@ -209,7 +209,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} YourBrand. All rights reserved.
+            © {new Date().getFullYear()} InputLo. All rights reserved.
           </p>
 
           <ul className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">

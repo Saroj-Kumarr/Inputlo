@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Star } from "lucide-react";
+import AnimatedCounter from "./AnimatedCounter";
 
 // Small helper to render fractional star fills (0.0 - 5.0)
 function StarRating({ value = 5 }: { value?: number }) {
@@ -83,9 +84,13 @@ export function SocialProofCta() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:py-20 lg:py-24 text-center">
           <h2
             id="social-proof"
-            className="text-pretty text-2xl font-semibold text-slate-900 sm:text-3xl md:text-4xl"
+            className="text-pretty flex justify-center items-center text-2xl font-semibold text-slate-900 sm:text-3xl md:text-4xl"
           >
-            Over 731,916 forms built… and counting.
+            Over{" "}
+            <span className="mx-2">
+              <AnimatedCounter end={6500} duration={2000} />
+            </span>{" "}
+            forms built… and counting.
           </h2>
           <p className="mx-auto mt-4 max-w-4xl text-balance text-base leading-relaxed text-slate-800 sm:text-lg">
             Our community loves Paperform and we’re sure you will too. So we’re

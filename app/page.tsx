@@ -1,19 +1,18 @@
-import AiNativeSection from "@/components/AINative";
-import ClientSlider from "@/components/ClientSlider";
 import LogosMarquee from "@/components/Companies";
+import CompetitiveComparison from "@/components/CompatativeComparison";
 import EndlessPossibilities from "@/components/EndlessPossibilities";
-import FeatureTrioSection from "@/components/FeatureTrioSection";
+import FAQSectionEqual from "@/components/FAQs";
+// import FeaturesHeroAnimated from "@/components/FeatureHero";
+import FormBuilderLanding from "@/components/FeatureHero";
+import FeaturesHero from "@/components/FeatureHero";
 import { HeroWithVideo } from "@/components/HeroWithVideo";
 import { WhyFormsSection } from "@/components/Highlighter";
 import InputLo from "@/components/InputLo";
 import IntegrationsMinimal from "@/components/IntegrationMinimal";
-import MainVisual from "@/components/MainVisual";
-import LogoMarquee from "@/components/Partner";
+import PricingComparison from "@/components/PricingSection";
 import SocialProofCta from "@/components/SocialProof";
 import { StatsCta } from "@/components/StatsCTA";
-import TestimonialsSection from "@/components/TestimonialSectionBottom";
-import TransformHero from "@/components/TransformHero";
-import TrustTestimonials from "@/components/TrustedBy";
+import TestimonialsSection from "@/components/TestimonialMain";
 import React from "react";
 
 const page = () => {
@@ -21,21 +20,18 @@ const page = () => {
     <div>
       <HeroWithVideo />
       <SocialProofCta />
-
-      <FeatureTrioSection />
+      <FormBuilderLanding />
       <WhyFormsSection />
-      <AiNativeSection />
       <EndlessPossibilities />
       <IntegrationsMinimal />
-      {/* <ClientSlider /> */}
-      <MainVisual />
+      <PricingComparison />
+
       <StatsCta />
       <TestimonialsSection />
+      <CompetitiveComparison />
       <InputLo />
-      {/* <TransformHero /> */}
-      {/* <LogoMarquee /> */}
       <LogosMarquee />
-      {/* <TrustTestimonials /> */}
+      <FAQSectionEqual />
     </div>
   );
 };

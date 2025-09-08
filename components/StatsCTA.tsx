@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import AnimatedCounter from "./AnimatedCounter";
 
 type Stat = {
   label: string;
@@ -49,12 +50,6 @@ function StatCard({
   label: string;
   Icon: Stat["icon"];
 }) {
-  const n = useCountUp(value);
-  const formatted = useMemo(
-    () => new Intl.NumberFormat("en-US").format(n),
-    [n]
-  );
-
   return (
     <motion.li
       className="rounded-lg border bg-background p-6 shadow-sm"
@@ -68,7 +63,9 @@ function StatCard({
           <Icon className="h-5 w-5 text-foreground" aria-hidden />
         </span>
         <div>
-          <div className="text-2xl font-semibold tabular-nums">{formatted}</div>
+          <div className="text-2xl font-semibold tabular-nums">
+            {<AnimatedCounter end={+value} duration={2000} />}
+          </div>
           <p className="text-sm text-muted-foreground">{label}</p>
         </div>
       </div>
@@ -78,9 +75,9 @@ function StatCard({
 
 export function StatsCta({ className }: { className?: string }) {
   const stats: Stat[] = [
-    { label: "submissions", value: 92372001, icon: FileText },
-    { label: "forms", value: 731916, icon: Layers },
-    { label: "payments processed", value: 173901139, icon: CreditCard },
+    { label: "submissions", value: 80500, icon: FileText },
+    { label: "forms", value: 6500, icon: Layers },
+    { label: "payments processed", value: 250650, icon: CreditCard },
   ];
 
   return (

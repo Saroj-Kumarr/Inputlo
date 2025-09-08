@@ -64,7 +64,7 @@ export function WhyFormsSection() {
 
           {/* Right side: dynamic preview */}
           <div className="relative">
-            <div className="rounded-xl bg-white/5 relative overflow-hidden h-80 ring-1 ring-white/10 shadow-xl p-4">
+            <div className="rounded-xl bg-white/5 relative overflow-hidden h-80 ring-1 ring-white/10 shadow-xl p-2">
               <Image
                 key={features[active].img}
                 src={features[active].img}
