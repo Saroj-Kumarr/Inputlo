@@ -95,7 +95,7 @@ export default function CompetitiveComparison({
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-8 text-center">
           <h3 id="comp-heading" className="text-4xl mb-2 font-semibold">
-            Inputlo MVP 1 vs Market Leaders
+            Inputlo vs Market Leaders
           </h3>
           <p className="text-pretty text-slate-600 text-center">
             A quick comparison showing how Inputlo outperforms existing form
@@ -115,7 +115,7 @@ export default function CompetitiveComparison({
                   className="px-4 py-4 font-semibold"
                   style={{ color: THEME }}
                 >
-                  Inputlo MVP 1
+                  Inputlo
                 </th>
                 <th className="px-4 py-4 font-semibold text-gray-700">
                   Typeform
