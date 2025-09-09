@@ -33,10 +33,6 @@ export function HeroWithVideo({ className }: { className?: string }) {
             <Link href="#get-started">Get Started – it&apos;s free</Link>
           </Button>
         </div>
-
-        <p className="mt-3 text-sm text-slate-500">
-          Full access free trial for 7 days, no credit card needed.
-        </p>
       </div>
 
       {/* Video Section */}

@@ -22,7 +22,7 @@ const page = () => {
       <WhyFormsSection />
       <EndlessPossibilities />
       <IntegrationsMinimal />
-      <PricingComparison />
+      {/* <PricingComparison /> */}
       <StatsCta />
       <TestimonialsSection />
       <CompetitiveComparison />

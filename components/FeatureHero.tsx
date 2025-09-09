@@ -160,8 +160,8 @@ const FormBuilderLanding = () => {
             actually builds forms.
           </h1>
           <p className=" text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            From simple contact forms to complex surveys, FormCraft adapts to
-            your team&apos;s real-world workflows — not the other way around.
+            From simple contact forms to complex surveys, InputLo adapts to your
+            team&apos;s real-world workflows — not the other way around.
           </p>
         </div>
 
@@ -295,17 +295,36 @@ const FormBuilderLanding = () => {
                   </div>
                 </div>
               </div>
+              <div className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
+                <div className="text-sm font-medium text-gray-700 mb-3">
+                  2 Form
+                </div>
 
-              <div className="bg-gray-900 rounded-lg p-4 text-white">
-                <div className="text-lg font-bold mb-2">
-                  Precision-Driven Form Growth
-                </div>
-                <div className="text-gray-300 text-sm mb-4">
-                  Let AI suggest field types, validations, and layouts.
-                </div>
-                <div className="flex items-center gap-2 text-sm">
-                  <div className="w-2 h-2 bg-[#F6C957] rounded-full"></div>
-                  <span>Contact form campaign</span>
+                <div className="overflow-hidden rounded-lg border border-gray-200">
+                  <div className="bg-gray-50 px-4 py-2 text-xs font-medium text-gray-600 border-b border-gray-200 grid grid-cols-3 gap-4">
+                    <div>Form Name</div>
+                    <div>Owner</div>
+                    <div>Assignee</div>
+                  </div>
+
+                  <div className="bg-white px-4 py-3 grid grid-cols-3 gap-4 items-center">
+                    <div className="text-sm text-gray-800">Contact Form</div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-6 h-6 bg-blue-500 rounded-full text-xs text-white flex items-center justify-center">
+                        A
+                      </div>
+                      <span className="text-sm text-gray-600">John Doe</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-6 h-6 bg-green-500 rounded-full text-xs text-white flex items-center justify-center">
+                        S
+                      </div>
+                      <span className="text-sm text-gray-600">deep</span>
+                      <div className="ml-2 px-2 py-1 bg-[#F6C957] text-white text-xs rounded">
+                        John Doe
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -396,9 +415,7 @@ const FormBuilderLanding = () => {
               >
                 <div className="flex items-center gap-2 mb-2">
                   <BarChart3 size={16} />
-                  <span className="text-sm font-medium">
-                    Made with FormCraft
-                  </span>
+                  <span className="text-sm font-medium">Made with InputLo</span>
                 </div>
               </div>
             </div>
