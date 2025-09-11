@@ -21,7 +21,7 @@ const page = () => {
       <FormBuilderLanding />
       <WhyFormsSection />
       <EndlessPossibilities />
-      <IntegrationsMinimal />
+      {/* <IntegrationsMinimal /> */}
       {/* <PricingComparison /> */}
       <StatsCta />
       <TestimonialsSection />
